@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-22T14:55:24 GMT-08:00" name="Default suite" finished-at="2022-05-22T14:56:15 GMT-08:00" duration-ms="50926">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGTestRunner@18eec010]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-22T14:55:24 GMT-08:00" name="Default test" finished-at="2022-05-22T14:56:15 GMT-08:00" duration-ms="50926">
+      <class name="runners.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestNGTestRunner@18eec010]" started-at="2022-05-22T14:55:25 GMT-08:00" name="setUpClass" finished-at="2022-05-22T14:55:28 GMT-08:00" duration-ms="3315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1310324a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:runners.TestNGTestRunner@18eec010]" started-at="2022-05-22T14:55:28 GMT-08:00" name="startDriver" finished-at="2022-05-22T14:55:38 GMT-08:00" duration-ms="9990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGTestRunner@18eec010]" started-at="2022-05-22T14:55:38 GMT-08:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-22T14:56:15 GMT-08:00" duration-ms="36924" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["RRegisteredUserCheckoutProduct"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[CheckoutProduct]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinitions.RegisteredUserCheckoutProduct.user_choose_shipping_method(RegisteredUserCheckoutProduct.java:56)
+at ✽.User choose Shipping method(file:///C:/Automation/ShadowingProject/src/test/java/features/RegisteredUserCheckoutProductStep.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:runners.TestNGTestRunner@18eec010]" started-at="2022-05-22T14:56:15 GMT-08:00" name="screenshotOnFailure" finished-at="2022-05-22T14:56:15 GMT-08:00" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGTestRunner@18eec010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestNGTestRunner@18eec010]" started-at="2022-05-22T14:56:15 GMT-08:00" name="tearDownClass" finished-at="2022-05-22T14:56:15 GMT-08:00" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

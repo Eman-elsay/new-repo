@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite parallel="true" name="nopcommerce">
+<parameter name="browser" value="firefox"></parameter>
+  <test name="regressiontest">
+  
+    <classes>
+   
+      <class name="runners.TestNGTestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
